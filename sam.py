@@ -679,3 +679,19 @@
 # d.info()
 
 # construtor(__init__)
+class person:
+    
+    def __init__(self,n,o):
+        print('hey im a person')
+        self.name = n
+        self.occ= o
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
+
+a=person('DIYA','CA')
+b=person('CHIRAG','ER')
+c=person('SAM','SWD')
+a.info()
+b.info()
+c.info()
+
